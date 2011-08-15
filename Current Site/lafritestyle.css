@@ -1,0 +1,280 @@
+body
+{
+	background-image: url('lafritebackground.gif');
+	background-position:left center;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-color:#920c08;
+	margin-top:50px;
+	text-align:center;
+}
+
+/*Text Style*/
+p
+{
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: black;
+	font-size: 75%;	
+}
+
+h1
+{
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: black;
+	font-size: 75%;
+	font-weight: bold;
+	letter-spacing: 2px;
+	}	
+	
+h2
+{
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: black;
+	font-size: 75%;
+	font-weight: bold;
+	letter-spacing: 2px;
+	}
+
+h3
+{
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: black;
+	font-size: 100%;
+	font-weight: bold;
+	}
+	
+h4
+{
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: white;
+	font-size: 75%;
+	font-weight: bold;
+	letter-spacing: 2px;
+	}
+
+	
+img /*removes the border from images*/
+{
+	border:none; 
+}
+
+/*navbar links style*/
+td:link
+{
+	text-decoration:none;
+}
+
+td:visited
+{
+
+	text-decoration:none;
+}
+
+td:hover
+{
+	background-color:rgb(170, 170, 170);
+	text-decoration:none;
+}
+
+td
+{
+	padding:5;
+	width:230;
+	vertical-align:bottom;
+	height:30;
+}
+
+html>body td
+{
+	padding:0;
+}
+
+#containerborder1 /*creates the first of three border lines*/
+{
+	background-color:white;
+	width:948;
+	height:550;
+	margin-left:auto;
+	margin-right:auto;
+	border-style:solid;
+	border-width:2px;
+	border-color:rgb(6,60, 122);
+}
+
+html>body #containerborder1
+{
+	width:948;
+	height:540;
+}
+#containerborder2 /*creates the second of three border lines*/
+{
+	background-color:white;
+	width:942;
+	height:544;
+	margin-left:auto;
+	margin-right:auto;
+	border-style:solid;
+	border-width:1px;
+	border-color:rgb(6,60, 122);
+	position:relative;
+	top:1px;
+}
+
+html>body #containerborder2
+{
+	width:944;
+	height:536;
+}
+
+#container /*main box where content is*/
+{
+	background-repeat:no-repeat;
+	background-color:white;
+	height:540;
+	padding:5px;
+	width:938;
+	margin-left:auto;
+	margin-right:auto;
+	border-style:solid;
+	border-width:2px;
+	border-color:rgb(6,60, 122);
+	position:relative;
+	top:1px;
+	text-align:left;
+}
+
+html>body #container
+{
+	width:928;
+	height:520;
+}
+
+#logo
+{
+	background:url('lafritelogo.jpg') no-repeat top center;
+	height:100;
+	width:242;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#address /*places the address at the very bottom, underneath the container box*/
+{
+	position:absolute;
+	top:540;
+	width:923;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#headerborder1 /*first of three lines under the header in the container box*/
+{
+	border-bottom: 2px solid #920c08;
+	position:relative;
+	top:2;
+	width:inherit;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#headerborder2 /*second of three lines under the header in the container box*/
+{
+	border-bottom: 1px solid #920c08;
+	position:relative;
+	top:3;
+	width:inherit;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#headerborder3 /*third of three lines under the header in the container box*/
+{
+	border-bottom: 2px solid #920c08;
+	position:relative;
+	top:4;
+	width:inherit;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:10px;
+}
+
+#leftcol
+{
+	background-color:#efede6 ;/*backup color: (6, 60, 122) or (170, 170, 170) or #efede6 or (200, 200, 200)*/
+	width:190px;
+	margin:0;
+	padding:5px;
+	float:left; 
+	position:relative; 
+	left:25px; 
+	top:-20px; 
+	line-height:80%;
+}
+
+html>body #leftcol
+{
+	width:180px;
+}
+
+#redline /*second of three lines under the header in the container box*/
+{
+	border-bottom: 1px solid #920c08;
+	width:inherit;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+}
+
+#indexbody
+{
+	width:700px;
+	position:relative;
+	top:-330px;
+	left:235px;
+	margin:0px;
+}
+
+#body
+{
+	margin:0px;
+	line-height:100%;
+	width:927px;
+}
+
+#news
+{
+	background-color:#efede6;/*backup color: rgb(6, 60, 122) or rgb(200, 200, 200) or #efede6*/
+	width:678px;
+	height:168px;
+	margin:0;
+	padding:5px;
+	line-height:90%;
+	float:none; 
+	position:relative;
+	top:36px;
+	left:50px;
+}
+
+html>body #news
+{
+	height:169px;
+	float: right;
+	position:relative;
+	top:30px;
+	left:0px;
+}
+
+.left /* left-most cell in the nav bar*/
+{
+	border-right: 1px solid black;
+}
+
+.default  /*not the left-most or right-most cell in the nav bar*/
+{
+	border-right: 1px solid black;
+}
+
+.right
+{
+	border:0px;
+}

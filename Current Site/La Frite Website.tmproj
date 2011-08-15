@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>documents</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>index.html</string>
+			<key>lastUsed</key>
+			<date>2011-03-12T20:20:01Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>lafritestyle.css</string>
+			<key>lastUsed</key>
+			<date>2010-11-22T02:33:07Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>menu.html</string>
+			<key>lastUsed</key>
+			<date>2010-04-26T01:43:16Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>reservations.html</string>
+			<key>lastUsed</key>
+			<date>2010-11-22T02:33:05Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>about.html</string>
+			<key>lastUsed</key>
+			<date>2011-03-12T20:20:08Z</date>
+			<key>selected</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>hoursanddirections.html</string>
+			<key>lastUsed</key>
+			<date>2010-11-22T02:33:03Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>iphone.css</string>
+			<key>lastUsed</key>
+			<date>2010-11-22T02:33:07Z</date>
+		</dict>
+	</array>
+	<key>fileHierarchyDrawerWidth</key>
+	<integer>200</integer>
+	<key>metaData</key>
+	<dict/>
+	<key>showFileHierarchyDrawer</key>
+	<true/>
+	<key>windowFrame</key>
+	<string>{{171, -490}, {959, 639}}</string>
+</dict>
+</plist>
